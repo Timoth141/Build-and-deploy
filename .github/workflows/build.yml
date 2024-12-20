@@ -40,5 +40,5 @@ jobs:
       - name: Upload Android APK build artifact
         uses: actions/upload-artifact@v3
         with:
-          name: android-apk
-          path: build/android/*.apk
+          name: android-aab
+          path: build/android/*.aab
